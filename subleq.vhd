@@ -5,12 +5,6 @@ use ieee.std_logic_unsigned.all;
 use work.defs.all;
 
 --a one-instruction-set instruction computer
---runs the instruction
---subleq a,b,c,d
---which translates to
---[a] - [b] => [c]
---if [a] - [b] <= 0 GOTO D
-
 
 entity subleq is
 port(
